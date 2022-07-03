@@ -7,6 +7,13 @@ a linha que contém o comando badblocks. Informe também a partição
 em que a varredura deve ser realizada. Na parte do comando que 
 contém a palavra "sua_partição" troque pela partição em deve ser
 feita a varredura.
+
+Veja abaixo para que serve cada parâmetro do comando:
+-s = Mostra o avanço do procedimento
+-v = verbose mode
+-c 10240 = Verifica 10.240 blocos do HD por vez
+-n = non-destructive read-write
+-w = destructive write-mode
 COMENTARIO
 #
 # Método 1 - Testa o HD apenas por leitura buscando badblocks. É mais seguro!

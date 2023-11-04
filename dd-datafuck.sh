@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-:>>COMENTARIO
+:<<COMENTARIO
 Shellscript criado para apagar os dados do disco rígido
 de forma definitiva no linux. Ao executar o script será perguntado
 qual o HD para inicar o procedimento de delção dos dados. Aqui é
